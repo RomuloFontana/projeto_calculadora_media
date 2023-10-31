@@ -62,14 +62,14 @@ function mediaUpdate(){
         resultado.style.background = "red";
         resultado.style.display = "inline";
         textoM.innerHTML = "Média"
-        notaM.innerHTML = `${media}`
+        notaM.innerHTML = `${media.toFixed(2)}`
         
     } else {
         resultado.innerHTML = "Aprovado"
         resultado.style.background = "green"
         resultado.style.display = "inline"
         textoM.innerHTML = "Média"
-        notaM.innerHTML = `${media}`
+        notaM.innerHTML = `${media.toFixed(2)}`
     }
 
     
